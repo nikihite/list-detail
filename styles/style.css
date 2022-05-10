@@ -38,10 +38,6 @@ header {
     box-shadow: var(--shadow);
 }
 
-img {
-    height: 150px;
-}
-
 #crystal-section {
     text-align: center;
 }

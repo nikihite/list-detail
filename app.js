@@ -1,6 +1,6 @@
 // import functions and grab DOM elements
 import { crystals } from './crystals.js';
-import { renderCrystal } from './utils.js';
+import { renderCrystal, renderListItem } from './utils.js';
 // let state
 const crystalListElem = document.getElementById('crystals');
 // set event listeners 
@@ -10,4 +10,11 @@ const crystalListElem = document.getElementById('crystals');
 for (let crystal of crystals) {
     const crystalDiv = renderCrystal(crystal);
     crystalListElem.append(crystalDiv);
+}
+
+const main = document.querySelector('main');
+
+for (let crystal of crystals) {
+    const crystalDiv = renderListItem(crystal);
+    main.append(crystalDiv);
 }

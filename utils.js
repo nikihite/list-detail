@@ -24,3 +24,29 @@ export function renderCrystal(crystal) {
     div.append(h1, img, p, h2, ul);
     return div;
 }
+
+export function findById(id, data) {
+    return data.find((item) => item.id === id);
+}
+
+export function renderListItem(crystal) {
+    const div = document.createElement('div');
+    div.classList.add('crystal');
+    div.style.top = crystal.top;
+    div.style.left = crystal.left;
+
+    const img = document.createElement('img');
+    img.src = `./assets/${crystal.name}.svg`;
+
+    const nameSpan = document.createElement('span');
+    nameSpan.classList.add('name');
+
+    const span = document.createElement('span');
+
+    const a = document.createElement('a');
+    a.href = `./crystals/?id=${crystal.id}`;
+    a.textContent = crystal.name;
+
+    div.append(img, nameSpan, span, a);
+    return div;
+}

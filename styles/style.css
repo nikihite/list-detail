@@ -37,3 +37,24 @@ header {
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
+
+img {
+    height: 150px;
+}
+
+#crystal-section {
+    text-align: center;
+}
+
+#crystals {
+    font-size: 50px;
+}
+
+ul {
+    list-style-type: none;
+    font-family: Lucida Handwriting;
+}
+
+a:link {
+    color: pink
+}

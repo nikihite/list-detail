@@ -36,17 +36,14 @@ export function renderListItem(crystal) {
     div.style.left = crystal.left;
 
     const img = document.createElement('img');
-    img.src = `./assets/${crystal.name}.svg`;
+    img.src = `./assets/${crystal.name}.jpeg`;
 
     const nameSpan = document.createElement('span');
     nameSpan.classList.add('name');
-
-    const span = document.createElement('span');
 
     const a = document.createElement('a');
     a.href = `./crystals/?id=${crystal.id}`;
     a.textContent = crystal.name;
 
-    div.append(img, nameSpan, span, a);
     return div;
 }

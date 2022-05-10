@@ -11,5 +11,8 @@ crystalName.textContent = crystal.name;
 const crystalImg = document.getElementById('crystal-img');
 crystalImg.src = `../assets/${crystal.name}.jpeg`;
 
-const crystalP = document.getElementById('crystal-p');
+const chakrasP = document.getElementById('chakras-p');
+chakrasP.textContent = crystal.chakras;
+
+const crystalP = document.getElementById('healing-p');
 crystalP.textContent = crystal.healingProperties;

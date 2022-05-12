@@ -31,10 +31,6 @@ h2 {
     font-size: 30px;
 }
 
-a {
-    font-size: 40px;
-}
-
 #image {
     display: flex;
     justify-content: center;

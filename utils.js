@@ -45,5 +45,6 @@ export function renderListItem(crystal) {
     a.href = `./crystals/?id=${crystal.id}`;
     a.textContent = crystal.name;
 
+    div.append(img, nameSpan, nameSpan, a);
     return div;
 }

@@ -17,5 +17,16 @@ img {
 
 header {
     font-style: Lucida Handwriting;
-    color:rgb(182, 146, 97)
+    color:rgb(182, 146, 97);
+}
+
+.crystal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    font-size: 50px;
+    color: black
 }

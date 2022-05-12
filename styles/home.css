@@ -1,1 +1,32 @@
-/* add home page styles here */
+body {
+    background-color: rgb(240, 234, 226);
+}
+
+#crystals {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    margin-top: 30px;
+    border: 3px solid black;
+}
+
+header {
+    font-style: Lucida Handwriting;
+    color:rgb(182, 146, 97);
+}
+
+.crystal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    font-size: 50px;
+    color: black
+}

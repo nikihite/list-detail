@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(240, 234, 226);
+}
+
+img {
+    height: 350px;
+    border: 2px solid black;
+}
+
+#healing-p {
+    font-size: 37px;
+    text-align: center;
+}
+
+#chakras-p {
+    font-size: 37px;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: serif;
+    font-variant: small-caps;
+}
+
+h1 {
+    border-bottom: 3px solid black;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+}
